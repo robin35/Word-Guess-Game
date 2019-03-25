@@ -4,10 +4,12 @@ README
 ALL THE PRESIDENT’S MEN…A PRESIDENTIAL GUESSING GAME!
 
 Thank you for visiting my repository. This project is a twist on the hangman game that many played as kids.  Here’s a little information on how to play this game:
+
 	The object of the game is to guess the last name of a former or current president before running out of the allotted points. 
 	The game begins with 12 points.
 
 To play:
+
 	The game randomly selects the name of a president and places underscores the length of the name on the screen (presidents with the same last name will have the initials of his first name included).
 	The user types a letter in the text box and presses the "Guess" button.
 	If letter is included in the last name of the president, the game populates the letter in the correct underscore on the gameboard under "Current Word"; 
