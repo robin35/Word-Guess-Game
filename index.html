@@ -3,15 +3,16 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta charset="UTF-8" name = "viewpoint" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
 
-    
+           
         <title>All the President's Men</title>
     
     </head>
 
-    <body onload="myFunction2()">
+    <body>
 
         <!-- Creates a container and nested boxes for the upper page -->
         <div class="flex-container">
@@ -21,13 +22,14 @@
             </div>
 
         <div>
+            
             <img src="https://media.giphy.com/media/12DZci4R5Ib2ow/giphy.gif" alt="Presidents" width="275" height="275">
         </div>
 
         <hr>
-            <h2>PRESS ANY KEY TO GET STARTED!</h2>
-
+            <h2>I'M THINKING OF A PRESIDENT - CAN YOU GUESS WHICH ONE?</h2>
         <hr>
+        <h2>TRY TO GUESS THE LAST NAME</h2>
 
         <h2>WINS</h2>
         <div id="wins"></div>
@@ -38,13 +40,15 @@
         <h2>NUMBER OF GUESSES REMAINING</h2>
         <div id="attemptsLeft"></div>
 
-        <h2>ENTER AN ALPHABET TO PLAY</h2>
+
+        <h2>ENTER A LETTER AND CLICK "GUESS" TO GET STARTED!</h2>
         <form>
-            <input id="userInput" type="text">
+            <input id="userGuess" type="text" maxlength="1" >
+            <button id="myBtn" type="button">Guess</button>
         </form>
 
         <h2>LETTERS ALREADY GUESSED</h2>
-        <div id="lettersGuessed"></div>
+        <div id="alreadyGuessed"></div>
 
     </body>
 
@@ -52,7 +56,7 @@
         Copyright ©
 
         <script type = "text/javascript" src="assets/javascript/game.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     </footer>
 
 </html>
